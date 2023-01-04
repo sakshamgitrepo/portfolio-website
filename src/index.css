@@ -12,3 +12,35 @@
       font-family: 'Raleway', sans-serif;
     }
   }
+ body{
+  background-color: rgb(2, 11, 24);
+  } 
+ .portfolio{
+  margin-top: 5rem;
+ }
+  .aboutImage{
+    width:12rem;
+    border-radius: 40%;
+    box-shadow: 1px 1px 3px 3px rgb(45, 51, 54);
+  }
+.skills{
+  margin-top: 10rem;
+}
+.contactform{
+  margin-top: 5rem;
+}
+.navlinks:hover{
+color:antiquewhite
+}
+  @media screen and (max-width: 768px) {
+    .aboutImage{
+      width:9rem;
+    }
+    .portfolio{
+      margin-top: 4rem;
+     }
+     .contactform{
+      margin-top: 9rem;
+    }
+  }
+  
